@@ -1,0 +1,253 @@
+/* ==========================================
+   カスタマイズ用CSSファイル
+   ========================================== */
+
+/*
+   このファイルは、style.css を上書きせずに
+   独自のスタイルを追加するためのファイルです。
+   
+   使い方:
+   1. index.html の <head> セクションで、style.css の後に読み込む
+   2. このファイルに追加のスタイルを記述
+   
+   例: <link rel="stylesheet" href="css/custom.css">
+*/
+
+/* ==========================================
+   カスタムカラーの例
+   ========================================== */
+
+/* 
+   メインカラーを変更する場合は、以下のクラスを上書き
+*/
+
+/*
+.logo span,
+.footer-logo span,
+.service-number,
+.member-role,
+.news-category,
+.submit-btn,
+.nav-list a::after {
+    color: #FF6B6B;  例: 赤系に変更
+    background-color: #FF6B6B;
+}
+*/
+
+/* ==========================================
+   カスタムフォントの例
+   ========================================== */
+
+/*
+   独自のフォントを使用する場合
+*/
+
+/*
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../fonts/custom-font.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'CustomFont', 'Noto Sans JP', sans-serif;
+}
+*/
+
+/* ==========================================
+   追加セクションの例
+   ========================================== */
+
+/*
+   新しいセクションを追加する場合のスタイル例
+*/
+
+/*
+.custom-section {
+    padding: 120px 0;
+    background-color: #f0f0f0;
+}
+
+.custom-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+*/
+
+/* ==========================================
+   ボタンのカスタマイズ例
+   ========================================== */
+
+/*
+   独自のボタンスタイルを追加
+*/
+
+/*
+.custom-btn {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #4A90E2;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #357ABD;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(74, 144, 226, 0.3);
+}
+*/
+
+/* ==========================================
+   アニメーションのカスタマイズ例
+   ========================================== */
+
+/*
+   独自のアニメーションを追加
+*/
+
+/*
+@keyframes customFade {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.custom-animation {
+    animation: customFade 0.6s ease forwards;
+}
+*/
+
+/* ==========================================
+   レスポンシブのカスタマイズ例
+   ========================================== */
+
+/*
+   特定の画面サイズでのスタイル調整
+*/
+
+/*
+@media (max-width: 768px) {
+    .custom-section {
+        padding: 60px 0;
+    }
+}
+*/
+
+/* ==========================================
+   グリッドレイアウトのカスタマイズ例
+   ========================================== */
+
+/*
+   独自のグリッドレイアウトを追加
+*/
+
+/*
+.custom-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.custom-grid-item {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.custom-grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+*/
+
+/* ==========================================
+   ダークモードの例
+   ========================================== */
+
+/*
+   ダークモードを実装する場合
+*/
+
+/*
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+body.dark-mode .header {
+    background-color: rgba(26, 26, 26, 0.95);
+}
+
+body.dark-mode .section {
+    background-color: #2a2a2a;
+}
+
+body.dark-mode .service-item,
+body.dark-mode .work-item {
+    background-color: #333;
+    border-color: #444;
+}
+*/
+
+/* ==========================================
+   追加のユーティリティクラス
+   ========================================== */
+
+/*
+   よく使う汎用的なクラス
+*/
+
+/*
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.mt-small {
+    margin-top: 20px;
+}
+
+.mt-medium {
+    margin-top: 40px;
+}
+
+.mt-large {
+    margin-top: 80px;
+}
+
+.mb-small {
+    margin-bottom: 20px;
+}
+
+.mb-medium {
+    margin-bottom: 40px;
+}
+
+.mb-large {
+    margin-bottom: 80px;
+}
+*/
+
+/* ==========================================
+   ここにカスタムCSSを記述
+   ========================================== */
